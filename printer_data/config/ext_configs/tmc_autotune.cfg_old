@@ -1,0 +1,9 @@
+[autotune_tmc stepper_x]
+motor: omc-14hs20-1504s
+voltage: 24
+tuning_goal: performance
+
+[autotune_tmc stepper_y]
+motor: omc-14hs20-1504s
+voltage: 24
+tuning_goal: performance

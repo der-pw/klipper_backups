@@ -1,0 +1,11 @@
+.env
+secrets.conf
+*.swp
+*.tmp
+printer-[0-9]*_[0-9]*.cfg
+*.bak
+*.bkp
+*.csv
+Brightness.zip
+printer_data/config/ShakeTune_results
+printer_data/config/adxl_results

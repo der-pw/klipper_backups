@@ -1,0 +1,22 @@
+[menu __main __octoprint]
+type: disabled
+
+[menu __main __unloadm]
+type: command
+name: unload filament
+gcode:
+    SET_LED LED=displayStatus GREEN=0 RED=0.02 BLUE=0
+    UNLOAD_FILAMENT
+
+[menu __main __loadm]
+type: command
+name: load filament
+gcode:
+    SET_LED LED=displayStatus GREEN=0.02 RED=0 BLUE=0
+    LOAD_FILAMENT
+
+[menu __main __shutdown]
+type: command
+enable: {not printer.idle_timeout.state == "Printing"}
+name: Shut down
+gcode: SHUTDOWN
