@@ -1,4 +1,8 @@
-# Klipper-Backup 💾 
-Klipper backup script for manual or automated GitHub backups 
+# Klipper-Backup 
 
-This backup is provided by [Klipper-Backup](https://github.com/Staubgeborener/klipper-backup).
+ _    _____   __ __  ____  _____ ______   
+| |  / /__ \ / // / / __ \/ ___// ____/   
+| | / /__/ // // /_/ /_/ / __ \/___ \     
+| |/ // __//__  __/\__, / /_/ /___/ /     
+|___//____(_)/_/  /____/\____/_____/      
+                                          
