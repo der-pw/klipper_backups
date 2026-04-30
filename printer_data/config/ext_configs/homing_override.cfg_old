@@ -1,0 +1,9 @@
+[homing_override]
+axes: xyz
+set_position_z: 0
+gcode:
+  G1 Z10 F600
+  G28 Y
+  G28 X
+  G1 X117 Y117 F9000
+  G28 Z
