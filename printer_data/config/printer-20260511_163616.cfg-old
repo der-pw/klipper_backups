@@ -1,5 +1,3 @@
-[include mmu/base/*.cfg]
-[include mmu/optional/client_macros.cfg]
 #########################################################
 #   INCLUDING SECTION                       12.10.25    #
 #########################################################
